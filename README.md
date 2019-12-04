@@ -4,8 +4,7 @@
 # WDP Projekt Zespołowy
 
 ## Opis projektu
-
-DO UZUPEŁNIENIA
+Projekt to próbka strony sklepu, który korzysta z bezpłatnego szablonu PSD. Projekt ma na celu poprawę umiejętności programowania, poznanie biblioteki ReactJS, poznanie pracy w grupie oraz obycie się z system kontroli wersji git.
 
 ## Demo
 
@@ -37,5 +36,7 @@ Za każdym razem gdy wykonasz komendę `git commit` zostaną uruchomione testy j
 dla plików, które zostały wybrane za pomocą `git add` i mają być zapisane w commicie.
 
 ## Konwencje i dobre praktyki
-
-DO UZUPEŁNIENIA
+- Warto trzymać się zasady skauta *Zawsze zostawiaj obóz czystszy, niż go zastałeś.*
+- W projekcie stosujemy jako wcięcia `2 spacje`
+- Wszystkie kolory dajemy do zmiennych i wrzucamy do pliku `settings.scss`
+- Jeśli jakiś styl będzie się powtarzał warto z niego zrobić klasę helperową i wrzucić do `global.scss`. Pamiętajcie jednak, że mamy w projekcie boostrapa więc korzystajmy z jego dobrodziejst.
