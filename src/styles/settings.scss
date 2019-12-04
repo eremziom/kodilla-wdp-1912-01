@@ -13,10 +13,9 @@ $darkGray: #2a2a2a;
 $darkestGrey: #292929;
 
 /* DON'T USE BASE COLORS (ABOVE) IN COMPONENTS */
-
 /* USE VARIABLES FROM THE BOTTOM IN COMPONENTS*/
 
-/* header colors start*/
+/* header colors */
 $header-topbar-bg: $lightGrey;
 $header-topbar-txt: $white;
 
@@ -24,18 +23,16 @@ $header-bg: $mediumGray;
 $header-txt: $darkWhite;
 /* header colors end*/
 
-/* menubar colors start */
+/* menubar colors */
 $menubar-bg: $white;
-
 /* menubar colors end */
 
-/* feature section colors start */
+/* feature section colors */
 $feature-box-border: $lightestGrey;
 $feature-icon-wrapper: $white;
-
 /* feature section colors end */
 
-/* new products section colors start */
+/* new products section colors */
 $product-bg: $white;
 $product-border-color: $lightestGrey2;
 $product-sale-bg: $darkestGrey;
@@ -49,12 +46,11 @@ $hover-bg-primary: $primary;
 $hover-txt-primary: $primary;
 $hover-txt-light: $white;
 $hover-bg-dark: $darkGray;
-
-
+/* hover colors end */
 $text-color: $darkGray;
 $form-border-color: $darkestGrey;
 
-/* footer colors start */
+/* footer colors */
 $footer-bg: $mediumGray;
 $footer-title-txt: $white;
 $footer-txt: $greyText;
