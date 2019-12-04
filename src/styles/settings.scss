@@ -1,13 +1,63 @@
 $base-padding: 24px;
 
-$header-topbar-bg: #434343;
-$header-bg: #363636;
-
-$footer-claim-bg: #2a2a2a;
-$footer-bg: #363636;
-
+/*** base colors ***/
+$white: #ffffff;
+$lightestGrey2: #e1e1e1;
+$lightestGrey: #b6b6b6;
+$darkWhite: #d8d8d8;
+$greyText: #a9a9a9;
 $primary: #d58e32;
+$lightGrey: #434343;
+$mediumGray: #363636;
+$darkGray: #2a2a2a;
+$darkestGrey: #292929;
 
-$text-color: #2a2a2a;
+/* DON'T USE BASE COLORS (ABOVE) IN COMPONENTS */
 
-$form-border-color: #292929;
+/* USE VARIABLES FROM THE BOTTOM IN COMPONENTS*/
+
+/* header colors start*/
+$header-topbar-bg: $lightGrey;
+$header-topbar-txt: $white;
+
+$header-bg: $mediumGray;
+$header-txt: $darkWhite;
+/* header colors end*/
+
+/* menubar colors start */
+$menubar-bg: $white;
+
+/* menubar colors end */
+
+/* feature section colors start */
+$feature-box-border: $lightestGrey;
+$feature-icon-wrapper: $white;
+
+/* feature section colors end */
+
+/* new products section colors start */
+$product-bg: $white;
+$product-border-color: $lightestGrey2;
+$product-sale-bg: $darkestGrey;
+$product-sale-txt: $white;
+$product-bottom-border: $darkestGrey; 
+$product-stars: $darkGray;
+/* new products section colors end */
+
+/* hover colors */
+$hover-bg-primary: $primary;
+$hover-txt-primary: $primary;
+$hover-txt-light: $white;
+$hover-bg-dark: $darkGray;
+
+
+$text-color: $darkGray;
+$form-border-color: $darkestGrey;
+
+/* footer colors start */
+$footer-bg: $mediumGray;
+$footer-title-txt: $white;
+$footer-txt: $greyText;
+$footer-claim-bg: $darkGray;
+$footer-claim-txt: $greyText
+/* footer colors end */
