@@ -8,7 +8,7 @@ Projekt to próbka strony sklepu, który korzysta z bezpłatnego szablonu PSD. P
 
 ## Demo
 
-DO UZUPEŁNIENIA
+[Link do projektu](https://stupefied-lewin-977cb1.netlify.com/)
 
 ## Inicjacja projektu
 
