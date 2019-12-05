@@ -81,15 +81,18 @@
     transition: .2s;
   }
 
-  &:hover .productBoxBtn {
-    opacity: 1;
-  }
-
   .price {
     transition: .2s;
   }
 
-  &:hover .price {
-    background-color: $primary;
+  &:hover {
+
+    .productBoxBtn {
+      opacity: 1;
+    }
+
+    .price {
+      background-color: $primary;
+    }
   }
 }
