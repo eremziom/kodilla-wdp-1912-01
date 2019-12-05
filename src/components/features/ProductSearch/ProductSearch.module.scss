@@ -35,14 +35,16 @@
       position: relative;
       cursor: pointer;
       z-index: 1;
-      transition: .2s;
+      transition: 0.2s;
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         background-color: $select-hover;
         color: $text-color-light;
       }
 
-      &:hover + .icon, &:focus + .icon {
+      &:hover + .icon,
+      &:focus + .icon {
         color: $text-color-light;
       }
     }
@@ -68,6 +70,19 @@
       border: 0;
       background-color: transparent;
       outline: none;
+    }
+  }
+  ul {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 50px;
+    li {
+      position: absolute;
+      padding: 50px;
+      a {
+        padding: 10px;
+      }
     }
   }
 }

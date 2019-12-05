@@ -10,9 +10,42 @@ const ProductSearch = () => (
   <form action='' className={styles.root}>
     <div className={styles.category}>
       <FontAwesomeIcon className={styles.icon} icon={faListUl} />
-      <select name='' id=''>
+      {/* <select name='' id=''>
         <option value=''>Select a category</option>
-      </select>
+      </select> */}
+      <ul>
+        <li>
+          <a>furniture</a>
+          <ul>
+            <li>test1</li>
+            <li>test 2</li>
+          </ul>
+        </li>
+        <li>
+          <a>chair</a>
+          <ul>
+            <li>test2</li>
+          </ul>
+        </li>
+        <li>
+          <a>table</a>
+          <ul>
+            <li>test3</li>
+          </ul>
+        </li>
+        <li>
+          <a>sofa</a>
+          <ul>
+            <li>test4</li>
+          </ul>
+        </li>
+        <li>
+          <a>bedroom</a>
+          <ul>
+            <li>test5</li>
+          </ul>
+        </li>
+      </ul>
       <FontAwesomeIcon className={styles.icon} icon={faCaretDown} />
     </div>
     <div className={styles.searchField}>
