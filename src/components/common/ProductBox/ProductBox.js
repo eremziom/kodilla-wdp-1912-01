@@ -71,17 +71,17 @@ const ProductBox = ({ name, price, oldPrice, promo, stars, icons }) => {
         <div className={styles.outlines}>{renderIcons(icons)}</div>
         <div className={styles.price}>
           <Button noHover variant='small'>
-            $ {price}
+            ${price}
           </Button>
         </div>
         {oldPrice ? (
           <div className={styles.price}>
-            <span className={styles.oldPrice}>$ {oldPrice}</span>
+            <span className={styles.oldPrice}>${oldPrice}</span>
           </div>
         ) : null}
         <div className={styles.price}>
           <Button noHover variant='small'>
-            $ {price}
+            ${price}
           </Button>
         </div>
       </div>
