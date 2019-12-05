@@ -16,22 +16,35 @@
       color: $primary;
       position: absolute;
       left: 10px;
-      z-index: 0;
+      z-index: 2;
     }
 
     .icon:last-child {
       position: absolute;
       right: 10px;
-      z-index: 0;
+      z-index: 2;
     }
 
     select {
+      outline: none;
       -webkit-appearance: none;
       border: 0;
+      font-size: 14px;
       background-color: transparent;
-      padding: 5px 30px 5px 35px;
+      padding: 12px 30px 12px 35px;
       position: relative;
+      cursor: pointer;
       z-index: 1;
+      transition: .2s;
+
+      &:hover, &:focus {
+        background-color: $select-hover;
+        color: $text-color-light;
+      }
+
+      &:hover + .icon, &:focus + .icon {
+        color: $text-color-light;
+      }
     }
   }
 
